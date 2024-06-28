@@ -21,6 +21,11 @@
 		E71440332C20AB4C00346F51 /* BookmarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71440322C20AB4C00346F51 /* BookmarkButton.swift */; };
 		E71440352C20B28300346F51 /* HomeSearchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71440342C20B28300346F51 /* HomeSearchViewCell.swift */; };
 		E71440382C20C11100346F51 /* EventInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71440372C20C11100346F51 /* EventInfoViewController.swift */; };
+		E75097722C26BE7200FF3743 /* VC+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75097712C26BE7200FF3743 /* VC+Ext.swift */; };
+		E75097742C275B2600FF3743 /* ChipLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75097732C275B2600FF3743 /* ChipLabelView.swift */; };
+		E75097762C2841DB00FF3743 /* LeftCircleIconTitleSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75097752C2841DB00FF3743 /* LeftCircleIconTitleSubtitleView.swift */; };
+		E75097792C28A27700FF3743 /* ExpandableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75097782C28A27700FF3743 /* ExpandableLabel.swift */; };
+		E750977C2C28A97200FF3743 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E750977B2C28A97200FF3743 /* ProfileViewController.swift */; };
 		E7512E922C1F040B00543162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7512E912C1F040B00543162 /* AppDelegate.swift */; };
 		E7512E9B2C1F040D00543162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7512E9A2C1F040D00543162 /* Assets.xcassets */; };
 		E7512E9E2C1F040D00543162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7512E9C2C1F040D00543162 /* LaunchScreen.storyboard */; };
@@ -48,6 +53,11 @@
 		E71440322C20AB4C00346F51 /* BookmarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkButton.swift; sourceTree = "<group>"; };
 		E71440342C20B28300346F51 /* HomeSearchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchViewCell.swift; sourceTree = "<group>"; };
 		E71440372C20C11100346F51 /* EventInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoViewController.swift; sourceTree = "<group>"; };
+		E75097712C26BE7200FF3743 /* VC+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+Ext.swift"; sourceTree = "<group>"; };
+		E75097732C275B2600FF3743 /* ChipLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipLabelView.swift; sourceTree = "<group>"; };
+		E75097752C2841DB00FF3743 /* LeftCircleIconTitleSubtitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftCircleIconTitleSubtitleView.swift; sourceTree = "<group>"; };
+		E75097782C28A27700FF3743 /* ExpandableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableLabel.swift; sourceTree = "<group>"; };
+		E750977B2C28A97200FF3743 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E7512E8E2C1F040B00543162 /* EventsHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventsHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7512E912C1F040B00543162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7512E9A2C1F040D00543162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,6 +120,22 @@
 			path = EventInfo;
 			sourceTree = "<group>";
 		};
+		E75097772C28A26800FF3743 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E75097782C28A27700FF3743 /* ExpandableLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E750977A2C28A96900FF3743 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E750977B2C28A97200FF3743 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		E7512E852C1F040B00543162 = {
 			isa = PBXGroup;
 			children = (
@@ -162,11 +188,14 @@
 		E7512EA72C1F194600543162 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E75097772C28A26800FF3743 /* Views */,
 				E71440292C20914500346F51 /* Buttons */,
 				E71440242C2076B400346F51 /* EventCategoryView.swift */,
 				E71440232C2076B400346F51 /* EventDateView.swift */,
 				E71440212C2076B400346F51 /* EventViewCell.swift */,
 				E71440302C209BBA00346F51 /* CategoryViewCell.swift */,
+				E75097732C275B2600FF3743 /* ChipLabelView.swift */,
+				E75097752C2841DB00FF3743 /* LeftCircleIconTitleSubtitleView.swift */,
 			);
 			name = Views;
 			path = "Vieüs";
@@ -201,6 +230,7 @@
 			children = (
 				E7512EB62C1F1F5600543162 /* Cell+Ext.swift */,
 				E71440142C206C2300346F51 /* UIView+Ext.swift */,
+				E75097712C26BE7200FF3743 /* VC+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -241,6 +271,7 @@
 		E7512EBE2C1F2DF500543162 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				E750977A2C28A96900FF3743 /* Profile */,
 				E7512EC22C1F30D700543162 /* Home */,
 				E7512EBF2C1F2E6900543162 /* TabBar */,
 			);
@@ -345,9 +376,13 @@
 				E71440272C2076B400346F51 /* EventDateView.swift in Sources */,
 				E71440152C206C2300346F51 /* UIView+Ext.swift in Sources */,
 				E71440282C2076B400346F51 /* EventCategoryView.swift in Sources */,
+				E75097722C26BE7200FF3743 /* VC+Ext.swift in Sources */,
 				E7512EB72C1F1F5600543162 /* Cell+Ext.swift in Sources */,
 				E71440132C206B3900346F51 /* HomeHeaderViewCell.swift in Sources */,
+				E75097762C2841DB00FF3743 /* LeftCircleIconTitleSubtitleView.swift in Sources */,
+				E75097792C28A27700FF3743 /* ExpandableLabel.swift in Sources */,
 				E7512EC42C1F30DF00543162 /* HomeViewController.swift in Sources */,
+				E750977C2C28A97200FF3743 /* ProfileViewController.swift in Sources */,
 				E7512EAF2C1F1B7B00543162 /* OnboardingViewController.swift in Sources */,
 				E714401A2C206FDC00346F51 /* EventsViewCell.swift in Sources */,
 				E71440352C20B28300346F51 /* HomeSearchViewCell.swift in Sources */,
@@ -356,6 +391,7 @@
 				E714402F2C2098BF00346F51 /* CategoriesViewCell.swift in Sources */,
 				E7512EC12C1F2E7800543162 /* TabBarViewController.swift in Sources */,
 				E7512E922C1F040B00543162 /* AppDelegate.swift in Sources */,
+				E75097742C275B2600FF3743 /* ChipLabelView.swift in Sources */,
 				E71440332C20AB4C00346F51 /* BookmarkButton.swift in Sources */,
 				E714402B2C20914B00346F51 /* PrimaryButton.swift in Sources */,
 				E71440182C206D3A00346F51 /* HomeViewSections.swift in Sources */,

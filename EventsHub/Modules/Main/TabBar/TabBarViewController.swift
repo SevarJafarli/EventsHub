@@ -26,7 +26,7 @@ final class TabBarViewController: UITabBarController {
         searchVC.tabBarItem = searchTab
         
         let profileTab = UITabBarItem(title: "Profile", image: UIImage(systemName: "person"), tag: 2)
-        let profileVC = UIViewController()
+        let profileVC = UINavigationController(rootViewController: ProfileViewController())
         profileVC.tabBarItem = profileTab
         
         viewControllers = [homeVC, searchVC, profileVC]

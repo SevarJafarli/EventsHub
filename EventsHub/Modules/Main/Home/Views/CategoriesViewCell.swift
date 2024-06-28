@@ -15,7 +15,7 @@ class CategoriesViewCell: UITableViewCell {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
         layout.minimumLineSpacing = 8
-        layout.itemSize = .init(width: 52, height: 70)
+        layout.itemSize = .init(width: 64, height: 82)
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
         cv.contentInset = .init(top: 8, left: 16, bottom: 8, right: 16)
         cv.backgroundColor = .systemBackground
@@ -48,7 +48,7 @@ class CategoriesViewCell: UITableViewCell {
     private func configureConstraints() {
         collectionView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
-            make.height.equalTo(70 + 16)
+            make.height.equalTo(82 + 16)
         }
     }
 }

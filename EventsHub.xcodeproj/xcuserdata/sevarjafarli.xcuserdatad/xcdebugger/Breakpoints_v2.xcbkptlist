@@ -49,6 +49,21 @@
                   endingLineNumber = "69"
                   offsetFromSymbolStart = "516">
                </Location>
+               <Location
+                  uuid = "F567B7D4-EEE7-45DB-819D-AD02B3AF37AA - a84bc870562609fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EventsHub.HomeViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "EventsHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sevarjafarli/ATL_Projects/EventsHub/EventsHub/Modules/Main/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "932">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
