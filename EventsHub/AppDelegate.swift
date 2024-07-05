@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Firebase
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
@@ -15,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow()
         self.window?.rootViewController = TabBarViewController()
         self.window?.makeKeyAndVisible()
+        FirebaseApp.configure()
         return true
     }
 }
